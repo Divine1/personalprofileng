@@ -1,0 +1,21 @@
+:host{
+    display: block;
+    padding: 1rem;
+    .name{
+        font-size: 1.2rem;
+    }
+    .socials{
+        display: flex;
+        margin: 0.5rem 0rem;
+        .logo{
+            height: 1.1rem;
+            margin-right: 0.2rem;
+
+        }
+        .stackoverflow{
+            clip: rect(0px,1rem,1.5rem,0px);
+            position: absolute;
+        }
+    }
+}
+
