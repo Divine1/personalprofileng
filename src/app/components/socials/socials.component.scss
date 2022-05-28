@@ -3,14 +3,18 @@
     .socials{
         display: flex;
         margin: 0.5rem 0rem;
+        a{
+            display: inline-block;
+            position: relative;
+        }
         .logo{
             height: 1.1rem;
             margin-right: 0.2rem;
 
         }
         .stackoverflow{
-            clip: rect(0px,1rem,1.5rem,0px);
-            position: absolute;
+            // clip: rect(0px,1rem,1.5rem,0px);
+            // position: absolute;
         }
     }
 }

@@ -1,15 +1,7 @@
 <div class="socials">
-    <a href="https://twitter.com/divine_rw" target="_blank">
-        <img class="logo" src="assets/socials/2021Twitterlogo-blue.png" alt="" srcset="" />
-    </a>
-    <a href="https://www.linkedin.com/in/divine6/" target="_blank">
-        <img class="logo" src="assets/socials/LI-In-Bug.png" alt="" srcset="" />
-        </a>
-    <a href="https://github.com/Divine1" target="_blank">
-        <img class="logo" src="assets/socials/GitHub-Mark-120px-plus.png" alt="" srcset="" />
-    </a>
-    
-    <a href="https://stackoverflow.com/users/3673073/divine" target="_blank">
-        <img class="logo stackoverflow" src="assets/socials/logo-stackoverflow.svg" alt="" srcset="" />
+    <a [href]="item.url" target="_blank" *ngFor="let item of socialItems">
+        <img class="logo" 
+        [ngClass]="{'stackoverflow' : item.title == 'stackoverflow'}"
+        [src]="item.filepath" alt="image not found" srcset="" [title]="item.title" />
     </a>
 </div>
