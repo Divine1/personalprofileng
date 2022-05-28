@@ -33,3 +33,5 @@ https://smashinglogo.com/en/logo-maker/#tour-finish
 https://favicon.io/emoji-favicons/collision
 
 https://favicon.io/emoji-favicons/
+
+https://favicon.io/favicon-generator/
