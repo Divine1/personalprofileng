@@ -1,11 +1,35 @@
 :host{
     display: block;
     padding: 1rem;
-    
+
     .skilldetails{
         ul{
             list-style: none;
         }
     }
+    .topbar{
+      display: flex;
+      .left_profilepic{
+        img{
+          width: 12rem;
+          border-radius: 12rem;
+        }
+      }
+      .right_profiledescription{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1rem;
+        width: 25rem;
+      }
+    }
+    fieldset{
+      border-color: aliceblue;
+      width: 30rem;
+    }
+    .generaldescription{
+      margin-top: 1rem;
+    }
+
 }
 

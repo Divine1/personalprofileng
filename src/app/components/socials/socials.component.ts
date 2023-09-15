@@ -14,14 +14,14 @@ export class SocialsComponent implements OnInit {
       filepath: "assets/socials/logo-stackoverflow.svg"
     },
     {
-      title : "linkedin",
-      url:"https://www.linkedin.com/in/divine6/",
-      filepath: "assets/socials/LI-In-Bug.png"
-    },
-    {
       title : "github",
       url:"https://github.com/Divine1",
       filepath: "assets/socials/GitHub-Mark-120px-plus.png"
+    },
+    {
+      title : "linkedin",
+      url:"https://www.linkedin.com/in/divine6/",
+      filepath: "assets/socials/LI-In-Bug.png"
     },
     {
       title : "twitter",
