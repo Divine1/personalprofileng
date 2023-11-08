@@ -25,7 +25,7 @@ export class SocialsComponent implements OnInit {
     },
     {
       title : "twitter",
-      url:"https://twitter.com/divine_rw",
+      url:"https://twitter.com/cdivine304",
       filepath: "assets/socials/2021Twitterlogo-blue.png"
     },
     {
