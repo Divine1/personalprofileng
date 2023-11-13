@@ -35,3 +35,13 @@ https://favicon.io/emoji-favicons/collision
 https://favicon.io/emoji-favicons/
 
 https://favicon.io/favicon-generator/
+
+
+
+
+
+
+update angular
+
+https://update.angular.io/?v=11.0-15.0
+
